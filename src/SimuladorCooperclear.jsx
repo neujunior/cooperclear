@@ -1,9 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from "recharts";
 
-
-const LOGO_DARK = "";
-const LOGO_LIGHT = "";
+import LOGO_DARK from './assets/logo-fundo-claro.png';
+import LOGO_LIGHT from './assets/logo-fundo-escuro.png';
 
 const TARIFAS = [
   { id: "verde",   label: "Verde",      add: 0,       cor: "#22c55e", corEscura: "#16a34a" },
